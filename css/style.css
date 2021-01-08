@@ -15,7 +15,8 @@ a {
 
 #homescreen-bg {
   max-width: 50%;
-  height: 90%;
+  height: auto;
+  max-height: 800px;
   width: auto\9; /* ie8 */
   bottom: 0%;
   right: 0%;
