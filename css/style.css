@@ -142,8 +142,8 @@ nav {
 .about-text {
   text-align: center;
   margin: 5%;
-  font-family: calibri;
-  width: 50%;
+  font-family:'Times New Roman', Times, serif;
+  width: 40%;
 }
 
 .about-text h1 {
