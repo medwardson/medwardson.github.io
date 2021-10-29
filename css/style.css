@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #161616;
+  background-color: #201f1f;
 }
 
 ul {
@@ -140,14 +140,15 @@ nav {
 }
 
 .about-text {
-  text-align: center;
+  text-align: justify;
   margin: 5%;
   font-family:'Times New Roman', Times, serif;
   width: 40%;
 }
 
 .about-text h1 {
-  font-size: 5rem;
+  text-align: center;
+  font-size: 4rem;
   color: #ff8ad8;
 }
 
@@ -163,11 +164,16 @@ h2 {
   padding: 0px;
 }
 
-.about-text p {
+.image-description, .about-text p {
   font-size: 1.1rem;
-  color: rgba(251, 251, 251, 0.7);
+  color: #f4f7ff;
+}
+
+.image-description{
+  text-align: center;
 }
 
 .circular--square {
   border-radius: 50%;
 }
+
