@@ -46,6 +46,10 @@ a:hover {
     color: var(--hover-color);
 }
 
+.title-name{
+    margin-bottom: 0em;
+}
+
 
 .main {
     max-width: 60%;

@@ -149,6 +149,10 @@ a:hover {
     box-shadow: 5px 10px var(--text-color);
 }
 
+.title-name{
+    margin-bottom: 0em;
+}
+
 @media (max-width:1281px ) {
     .main-left {
         display: none;
