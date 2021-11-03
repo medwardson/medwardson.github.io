@@ -1,84 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>Mesha Edwardson</title>
-
-    <!--Title Icon-->
-    <link rel="shortcut icon" href="images/title-icon.png" />
-
-    <!--Stlye Sheet-->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <!--Fontawesome-->
-    <link href="fontawesome/css/all.css" rel="stylesheet" />
-
-    <!--Scripts-->
-    <script src="highlightbutton.js"></script>
-  </head>
-
-  <body>
-    <!--Main Section-->
-    <section id="main">
-      <!--NavBar-->
-      <nav>
-        <!--Logo-->
-        <a href="#main"><img src="images/title-icon.png" class="logo" /></a>
-        <!--menu-->
-        <ul id="nav-menu" class="menu">
-          <li>
-            <a
-              id="menu-home"
-              onclick="highlightBtn('home')"
-              href="index.html"
-              class="active"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              id="menu-aboutme"
-              onclick="highlightBtn('about')"
-              href="aboutme.html"
-              class=""
-              >Who am I?</a
-            >
-          </li>
-          <li>
-            <a
-              id="menu-resume"
-              onclick="highlightBtn('resume')"
-              type="application/pdf"
-              href="images/MeshaEdwardsonResume.pdf"
-              class=""
-              >Resume</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!--Name-->
-      <div class="main-page">
-        <div class="name">
-          <p>Hello,</p>
-          <h1>I'm <font color="#FF8AD8"> Mesha </font> Edwardson.</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mesha Naidoo-Edwardson</title>
+        <link rel="shortcut icon" href="images/title-icon.png" />
+        <link rel="stylesheet" type="text/css" href="styles/index.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main main-left">
+                <div class="nav center">
+                    <h1 class="nav-item title"> Welcome! </h1>
+                    <h2 class="nav-item italic bold"><a>About Me</a></h2>
+                    <h2 class="nav-item"><a href="about-me.html">What I'm Up To</a></h2>
+                    <h2 class="nav-item"><a type="application/pdf" href="images/MeshaEdwardsonResume.pdf">Resume</a></h2>
+                </div>
+                <div class="social center">
+                    <a href="https://www.linkedin.com/in/meshaedwardson/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/medwardson">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                    <a href="mailto:mnaidooe@uwaterloo.ca">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="main-left-phone">
+                <h3 class="nav-button italic bold selected"><a href="index.html">About Me</a></h1>
+                <h3 class="nav-button"><a href="about-me.html">What I'm Up To</a></h1>
+                <h3 class="nav-button"><a type="application/pdf" href="images/MeshaEdwardsonResume.pdf">Resume</a></h1>
+            </div>
+            <div class="main main-right">
+                <h1 class="center">
+                    Mesha Naidoo-Edwardson
+                </h1>
+                <p class="center italic">
+                    Mathematics Student, Software Developer, Entreprenuer, & Athlete
+                </p>
+                <img 
+                    width="500"
+                    src="images/profilepicture.png"
+                    class="circular--square"
+                    alt="me"
+                />
+                <h3 class="italic purple-text">About Me:</h3>
+                <p class="black-text center">
+                    I am a Mathematics Student at the University of Waterloo pursuing an Honours Bachelors of Mathematics, 
+                    Majoring in Statistics with an Entreprenuership Minor.
+                </p>
+                <p class="black-text center">
+                    I have a diverse set of technical skills and continue to expand my portfolio. Through academic, corporate, and personal
+                    means, I have developed skills in the following areas: Web & Mobile Front-end, Serverside Javascript, and Automated 
+                    Testing. I am currently passionate about expanding my capabilities relating to API/Integration, Back-End Data Management, and Artificial Intelligence.
+                </p>
+                <p class="black-text center">
+                    In addition to my technical skills and passions, athletics play a large role in my life. Throughout the last decade of my life,
+                    I have spent many hours of my life across Volleyball, Ultimate Frisbee, Spikeball, Alpine Skiing, and Hiking.
+                </p>
+                <p class="black-text center">
+                    This website showcases what I'm currently up to, with the purpose of helping you learn about me. Thanks for visiting! ☺ 
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="main-picture">
-        <img id="homescreen-bg" src="images/bg.png" />
-      </div>
-      <!--Social-->
-      <div class="social bottom">
-        <a href="https://www.linkedin.com/in/meshaedwardson/"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a href="https://github.com/medwardson"
-          ><i class="fab fa-github-alt"></i
-        ></a>
-        <a href="mailto:mnaidooe@uwaterloo.ca"
-          ><i class="fas fa-envelope"></i
-        ></a>
-      </div>
-    </section>
-  </body>
+    </body>
 </html>
