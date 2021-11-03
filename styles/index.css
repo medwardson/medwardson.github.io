@@ -171,6 +171,7 @@ a:hover {
         margin: 1rem; 
         max-width: 100%;
         align-items: center;
+        align-content: center;
     }
 
     .nav-item {
