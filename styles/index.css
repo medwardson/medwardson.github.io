@@ -59,12 +59,20 @@ a:hover {
     box-shadow: 10px 20px var(--text-color);
 }
 
-.main-left, .main-right {
+.main-right {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-left-phone {
@@ -85,7 +93,7 @@ a:hover {
 }
 
 .nav-item {
-    margin-bottom: 5rem;
+    padding: 0.25em;
 }
 
 .nav-button {
