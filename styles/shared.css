@@ -3,3 +3,11 @@ html {
     height: 100%;
     align-items: center;
 }
+
+@media (max-width:1281px ) {
+
+    html {
+        align-items: unset;
+    }
+
+}

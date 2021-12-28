@@ -172,6 +172,7 @@ a:hover {
 }
 
 @media (max-width:1281px ) {
+
     .main-left {
         display: none;
     }
