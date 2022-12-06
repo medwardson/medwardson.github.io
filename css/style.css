@@ -867,3 +867,7 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+
+.img-fluid {
+  border-radius: 5%;
+}
